@@ -39,7 +39,7 @@ const Footer = () => {
                     <FiPhoneCall></FiPhoneCall>
                   </div>
                   <div>
-                    <p className="text-white">Dhaka, Bangladesh</p>
+                    <p className="text-white">+880175653****</p>
                   </div>
                 </div>
 

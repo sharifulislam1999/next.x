@@ -68,8 +68,7 @@ const Login = () => {
             successMessage("Login Success");
             setTimeout(()=>{
                 navigate(location.state ? location.state : "/") 
-               },1000)
-               
+               },1000)  
         })
         .catch(()=>{
     
@@ -83,7 +82,6 @@ const Login = () => {
             setTimeout(()=>{
                 navigate(location.state ? location.state : "/") 
                },1000)
-              
         })
         .catch(()=>{
         });
@@ -92,7 +90,6 @@ const Login = () => {
         <div>
             {userInfo && <Nav></Nav>}
             <div className="container mx-auto px-3">
-            {/* <Bread title="Log In"></Bread> */}
             <div data-aos="fade-down" className="py-16 flex justify-center items-center">
                 <div className="w-full lg:w-[70%] border p-4 rounded-xl">
                     <form ref={formData}  className="" onSubmit={handleSubmit(formSubmit)}>
