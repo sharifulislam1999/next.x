@@ -30,7 +30,6 @@ const Register = () => {
             passwordFiled.type  = "password";
         }
         setEyeToggle(!eyeToggle);
-
     }
     const successMessage = (msg)=>{    
             toast.success(msg,{

@@ -33,7 +33,7 @@ const SavedEstate = () => {
             <div className="">
                {disList.map((item,i)=> <SavedCart key={i} item={item}></SavedCart>)}
             </div>
-        {disList.length ? <h1></h1> : <h1 className="text-xl md:text-2xl font-semibold">No Saved Estate Found</h1>}
+        {disList.length ? <h1></h1> : <h1 className="text-xl md:text-2xl font-semibold">No Saved Estate Found on Localhost</h1>}
         </div>
        </div>
     );
