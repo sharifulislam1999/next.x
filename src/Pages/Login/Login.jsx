@@ -17,7 +17,6 @@ const Login = () => {
     document.title = "Nest.X | log In";
     const location = useLocation();
     const navigate = useNavigate();
-    console.log(location)
     const {userInfo,logInWithUP,signInPopUp} = useContext(AuthProvider)
     const {register,handleSubmit} = useForm();
     const [eyeToggle,setEyeToggle] = useState(true);

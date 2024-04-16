@@ -7,13 +7,10 @@ import "aos/dist/aos.css";
 AOS.init({
   startEvent: "DOMContentLoaded",
 });
-
-
 import PropTypes from "prop-types"
 import { Link } from "react-router-dom";
 const Estate = ({item}) => {
     const {id,image,estate_title,segment_name,description,price,status,location,area,facilities} = item;
-
     return (
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className="border rounded-xl flex flex-col">
             <div className="relative">
@@ -65,17 +62,6 @@ const Estate = ({item}) => {
     );
 };
 Estate.propTypes = {
-    item: PropTypes.obj
+    item: PropTypes.object
 }
-
-
 export default Estate;
-// "image": "https://i.ibb.co/bPj6Rg7/lotus-design-n-print-Mcmcjg-Gk8u-M-unsplash.jpg",
-// "estate_title": "Desert Oasis Retreat",
-// "segment_name": "Apartments",
-// "description": "Escape to the desert and unwind in this stunning oasis retreat with panoramic mountain views.",
-// "price": 5000000,
-// "status": "sale",
-// "location": "Scottsdale, Arizona",
-// "area": "6000 sq ft",
-// "facilities": ["resort-style pool", "outdoor kitchen", "fire pit", "putting green", "home theater"]
