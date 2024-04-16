@@ -11,23 +11,13 @@ const ProfileData = () => {
     const {userInfo} = useContext(AuthProvider)
     return (
         <div data-aos="fade-down" className="flex justify-center">
-           <div className="px-4 py-10 border rounded-lg w-96 space-y-6">
+           <div className="px-4 py-10 border rounded-lg w-full md:w-96 space-y-6">
            <div className="flex justify-center">
             <img className="rounded-full border-4 border-[#65B110] h-40 w-40 object-cover" src={userInfo.photoURL} alt="" />
            </div>
            <div className="text-center">
             <h1 className="text-3xl font-semibold">{userInfo.displayName}</h1>
            </div>
-           {/* <table className="table-fixed w-full text-base">
-            <tr>
-                <td className="md:w-32 border p-2">Email:</td>
-                <td className="border p-2">{userInfo?.email || "Github Privider"}</td>
-            </tr>
-            <tr>
-                <td className="md:w-32 border p-2">Email Verified:</td>
-                <td className="border p-2">{userInfo.emailVerified ? "Verified" : "Not Verified"}</td>
-            </tr>
-           </table> */}
            <div className="space-y-2">
             <div className="flex md:gap-2 border">
                 <h1 className="p-2 font-bold ">Email:</h1>

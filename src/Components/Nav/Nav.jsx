@@ -20,7 +20,6 @@ const Nav = () => {
         }else{
             setNavPadding(false)
         }
-        
     }
     window.addEventListener("scroll",handleScroll)
     return (
@@ -30,7 +29,7 @@ const Nav = () => {
                 <div>
                     <Link to="/" className=" text-2xl md:text-4xl font-bold text-main">Nest.X</Link>
                 </div>
-                <div className={`${toggle || "hidden"} md:block md:static bg-white text-center absolute duration-300 top-12 left-0 w-full md:w-auto`}>
+                <div className={`${toggle || "hidden"} md:block md:static bg-white text-center absolute pb-6 md:pb-0 duration-300 top-12 left-0 w-full md:w-auto`}>
                     <nav className="text-base">
                         <ul className="md:flex md:pt-0 gap-6 space-y-4 md:space-y-0 ">
                             <li><NavLink onClick={()=>setToggle(!toggle)} to="/" className={({isActive})=> isActive ? "active" : "pending"}>Home</NavLink></li>
