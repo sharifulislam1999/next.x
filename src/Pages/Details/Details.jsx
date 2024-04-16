@@ -14,7 +14,6 @@ const Details = () => {
     const {_id} = useParams();
     const data = useLoaderData();
     const filterData = data.find((item)=> item.id === parseInt(_id));
-    console.log(filterData)
     const {id,image,estate_title,segment_name,description,price,status,location,area,facilities} = filterData;
     document.title = `Nest.X | ${estate_title}`;
     const handleSave = (id)=>{
