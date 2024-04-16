@@ -48,7 +48,7 @@ const UpdateForm = () => {
         <div className="">
         <div data-aos="fade-down" className="py-16 flex justify-center items-center">
             <div className="w-full lg:w-[70%] border p-4 rounded-xl">
-                <form className="" onSubmit={handleSubmit(formSubmit)}>
+                <form className="py-6" onSubmit={handleSubmit(formSubmit)}>
                   <div className='flex justify-center'>
                   <div className='h-40 w-40 mb-4'>
                         <img className='w-full rounded-full border-4 border-[#65B110]' src={userInfo.photoURL} alt="" />

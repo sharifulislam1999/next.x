@@ -15,5 +15,4 @@ Title.propTypes = {
     title: PropTypes.string,
     des: PropTypes.string
 }
-
 export default Title;

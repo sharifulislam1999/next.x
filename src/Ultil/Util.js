@@ -7,7 +7,6 @@ const getData = ()=>{
 }
 const saveData = (lists)=>{
     localStorage.setItem("savedEstate",JSON.stringify(lists))
-
 }
 const addData = (list)=>{
     const lists = getData();
