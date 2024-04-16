@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/tm4v675/douglas-sheppard-9r-Yf-G8s-WRVo-unsplash.jpg",
+      "estate_title": "Oceanview Luxury Home",
+      "segment_name": "Single-family homes",
+      "description": "Experience ultimate luxury living with breathtaking ocean views.",
+      "price": 5000000,
+      "status": "Sale",
+      "location": "Malibu, California",
+      "area": "8000 sq ft",
+      "facilities": ["private beach access", "infinity pool", "home theater", "gourmet kitchen", "spacious bedrooms"]
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/CJ20K9v/etienne-beauregard-riverin-B0a-Cv-AVSX8-E-unsplash.jpg",
+      "estate_title": "City Center Townhouse",
+      "segment_name": "Townhouses",
+      "description": "Live in style in this beautifully renovated townhouse in the heart of the city.",
+      "price": 2000000,
+      "status": "Rent",
+      "location": "Manhattan, New York",
+      "area": "3500 sq ft",
+      "facilities": ["rooftop terrace", "modern kitchen", "home office", "fitness room", "garage"]
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/Wnjq03s/francesca-tosolini-Xc-Vm8mn7-NUM-unsplash.jpg",
+      "estate_title": "Mountain View Apartment",
+      "segment_name": "Apartments",
+      "description": "Escape to the mountains and enjoy the tranquility of nature in this cozy apartment.",
+      "price": 3000000,
+      "status": "Sale",
+      "location": "Aspen, Colorado",
+      "area": "2500 sq ft",
+      "facilities": ["stone fireplace", "wrap-around deck", "hot tub", "ski storage", "panoramic views"]
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/FwZp3yJ/breno-assis-r3-WAWU5-Fi5-Q-unsplash.jpg",
+      "estate_title": "Victorian Heritage Home",
+      "segment_name": "Student housing",
+      "description": "Own a piece of history with this beautifully restored Victorian home.",
+      "price": 10000000,
+      "status": "Rent",
+      "location": "San Francisco, California",
+      "area": "6000 sq ft",
+      "facilities": ["ornate woodwork", "stained glass windows", "wrap-around porch", "formal gardens", "guest cottage"]
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/VHjYp90/brandon-griggs-w-R11-KBa-B86-U-unsplash.jpg",
+      "estate_title": "Ski Chalet Retreat",
+      "segment_name": "Senior living communities",
+      "description": "Experience luxury ski living with stunning mountain views and easy slope access.",
+      "price": 4000000,
+      "status": "Rent",
+      "location": "Courchevel, France",
+      "area": "4000 sq ft",
+      "facilities": ["ski-in/ski-out", "sauna", "hot tub", "home theater", "wine cellar"]
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/pfLsTVP/digital-marketing-agency-ntwrk-g39p1k-Djv-SY-unsplash.jpg",
+      "estate_title": "Tropical Island Villa",
+      "segment_name": "Vacation rentals",
+      "description": "Indulge in island living with this luxurious villa surrounded by lush tropical gardens.",
+      "price": 7000000,
+      "status": "Sale",
+      "location": "Bali, Indonesia",
+      "area": "7000 sq ft",
+      "facilities": ["infinity pool", "poolside cabana", "outdoor kitchen", "private beach access", "yoga pavilion"]
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/3kSyHsC/florian-schmidinger-b-79n-Oqf95-I-unsplash.jpg",
+      "estate_title": "Golf Course Estate",
+      "segment_name": "Single-family homes",
+      "description": "Live in luxury on the fairway with panoramic views of the golf course and surrounding mountains.",
+      "price": 6000000,
+      "status": "Rent",
+      "location": "Scottsdale, Arizona",
+      "area": "9000 sq ft",
+      "facilities": ["private putting green", "outdoor kitchen", "home theater", "wine cellar", "guest casita"]
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/cXqcQ3x/lotus-design-n-print-I58-Xjx0zz-BQ-unsplash.jpg",
+      "estate_title": "Modern Urban Loft",
+      "segment_name": "Townhouses",
+      "description": "Experience urban living at its finest in this sleek and stylish loft in the heart of the city.",
+      "price": 3000000,
+      "status": "Sale",
+      "location": "London, UK",
+      "area": "2000 sq ft",
+      "facilities": ["open floor plan", "high ceilings", "exposed brick", "private terrace", "concierge service"]
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/bPj6Rg7/lotus-design-n-print-Mcmcjg-Gk8u-M-unsplash.jpg",
+      "estate_title": "Desert Oasis Retreat",
+      "segment_name": "Apartments",
+      "description": "Escape to the desert and unwind in this stunning oasis retreat with panoramic mountain views.",
+      "price": 5000000,
+      "status": "Sale",
+      "location": "Scottsdale, Arizona",
+      "area": "6000 sq ft",
+      "facilities": ["resort-style pool", "outdoor kitchen", "fire pit", "putting green", "home theater"]
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/r0rzMZY/infinite-views-0id6-Yr-Ctp-S4-unsplash.jpg",
+      "estate_title": "Riverside Luxury Residence",
+      "segment_name": "Senior living communities",
+      "description": "Enjoy riverfront living in this elegant residence with stunning water views and private dock.",
+      "price": 2500000,
+      "status": "Rent",
+      "location": "Miami, Florida",
+      "area": "3500 sq ft",
+      "facilities": ["private boat dock", "infinity pool", "outdoor kitchen", "home gym", "media room"]
+    }
+  ]
