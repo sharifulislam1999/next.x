@@ -1,6 +1,11 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init({
+  startEvent: "DOMContentLoaded",
+});
 const Accordian = () => {
     return (
-        <div className="flex justify-center">
+        <div data-aos="fade-up" className="flex justify-center">
             <div className="join join-vertical w-full lg:w-[60%]">
   <div className="collapse collapse-arrow join-item border border-base-300">
     <input type="radio" name="my-accordion-4" defaultChecked /> 
@@ -17,7 +22,7 @@ const Accordian = () => {
     <h1>Personalized Service</h1>
     </div>
     <div className="collapse-content"> 
-      <p>We understand that every homebuyer is unique, with distinct preferences and requirements. That's why we offer personalized service tailored to your specific needs, ensuring a seamless and satisfying experience from start to finish.</p>
+      <p>We understand that every homebuyer is unique, with distinct preferences and requirements. Thats why we offer personalized service tailored to your specific needs, ensuring a seamless and satisfying experience from start to finish.</p>
     </div>
   </div>
   <div className="collapse collapse-arrow join-item border border-base-300">
@@ -26,7 +31,7 @@ const Accordian = () => {
       <h1>Extensive Listings</h1>
     </div>
     <div className="collapse-content"> 
-      <p>Gain access to an extensive database of residential properties, including exclusive listings not found elsewhere. Whether you're searching for a cozy starter home or a luxurious estate, we have options to suit every taste and budget.</p>
+      <p>Gain access to an extensive database of residential properties, including exclusive listings not found elsewhere. Whether youre searching for a cozy starter home or a luxurious estate, we have options to suit every taste and budget.</p>
     </div>
   </div>
   <div className="collapse collapse-arrow join-item border border-base-300">

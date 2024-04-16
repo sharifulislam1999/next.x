@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-const Title = ({ title, des }) => {
+const Title = ({ dataaos,title, des }) => {
   return (
-    <div className="text-center space-y-4 my-20">
+    <div data-aos={dataaos} className="text-center space-y-4 my-20">
       <div className="text-2xl lg:text-5xl font-semibold">
         <h1>{title}</h1>
       </div>
@@ -13,6 +13,7 @@ const Title = ({ title, des }) => {
 };
 Title.propTypes = {
     title: PropTypes.string,
-    des: PropTypes.string
+    des: PropTypes.string,
+    dataaos: PropTypes.string
 }
 export default Title;

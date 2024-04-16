@@ -6,6 +6,12 @@ import Nav from "../../Components/Nav/Nav";
 import { useContext } from "react";
 import { AuthProvider } from "../../firebase/FirebaseProvider";
 import Accordian from "../../Components/Accordian/Accordian";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import MapLocation from "../../Components/MapLocation/MapLocation";
+AOS.init({
+  startEvent: "DOMContentLoaded",
+});
 
 const Home = () => {
     document.title = "Home | Nest.X"
@@ -15,13 +21,16 @@ const Home = () => {
         <div>
             {userInfo && <Nav></Nav>}
             <Slider></Slider>   
-            <Title title="Checkout Our Featured Item" des="Discover our featured property: a stunning home with modern amenities in a prime location. Schedule your viewing today!"></Title>
+            <Title dataaos="fade-up" title="Checkout Our Featured Item" des="Discover our featured property: a stunning home with modern amenities in a prime location. Schedule your viewing today!"></Title>
             <div className="container mx-auto px-3">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {estates.map((item,i)=> <Estate key={i} item={item} ></Estate>)}
             </div>
-            <Title title="Why Chose us" des="Discover our featured property: a stunning home with modern amenities in a prime location. Schedule your viewing today!"></Title>
-            <Accordian></Accordian>
+            <Title dataaos="fade-up" title="Why Chose us" des="Choose us for personalized service, expert guidance, and local knowledge to find your dream home effortlessly"></Title>
+            <Accordian></Accordian>    
+            <div className="mt-40">
+            <MapLocation />   
+            </div>     
             </div>
         </div>
     );
