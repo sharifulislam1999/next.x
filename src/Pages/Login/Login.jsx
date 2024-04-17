@@ -43,7 +43,7 @@ const Login = () => {
     const formSubmit = (data)=>{
        const {email,password} = data;
        if(!/^(?=.*[a-z])(?=.*[A-Z]).{6,}$/.test(password)){
-        errorMsg("Your password must be at least 8 characters long and contain at least one uppercase and one lowercase letter.")
+        errorMsg("Your password must be at least 6 characters long and contain at least one uppercase and one lowercase letter.")
         return;
        }
        logInWithUP(email,password)
