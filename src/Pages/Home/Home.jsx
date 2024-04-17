@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             <Title dataaos="fade-up" title="Why Chose us" des="Choose us for personalized service, expert guidance, and local knowledge to find your dream home effortlessly"></Title>
             <Accordian></Accordian>    
-            <div className="mt-40">
+            <div className="mt-20 lg:mt-80">
             <MapLocation />   
             </div>     
             </div>

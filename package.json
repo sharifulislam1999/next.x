@@ -12,6 +12,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "firebase": "^10.11.0",
+    "google-map-react": "^2.2.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "prop-types": "^15.8.1",
