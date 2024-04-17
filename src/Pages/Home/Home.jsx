@@ -18,7 +18,7 @@ const Home = () => {
     const estates = useLoaderData()
     const {userInfo} = useContext(AuthProvider);
     return (
-        <div>
+        <div className="overflow-x-hidden">
             {userInfo && <Nav></Nav>}
             <Slider></Slider>   
             <Title dataaos="fade-up" title="Checkout Our Featured Item" des="Discover our featured property: a stunning home with modern amenities in a prime location. Schedule your viewing today!"></Title>

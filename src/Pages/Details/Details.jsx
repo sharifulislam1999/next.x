@@ -44,7 +44,7 @@ const Details = () => {
                     <h1 className="text-white">Segment: <span className="font-bold">{segment_name}</span></h1>
                 </div>
             </div>
-           <div className="container mx-auto px-3 mt-10 lg:mt-20">
+           <div className="container overflow-x-hidden mx-auto px-3 mt-10 lg:mt-20">
            <div className="flex-col flex lg:flex-row gap-11 items-center">
                 <div data-aos="fade-right" className="lg:flex-1">
                     <img className="rounded-lg" src={image} alt="" />
