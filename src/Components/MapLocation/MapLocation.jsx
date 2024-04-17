@@ -1,8 +1,13 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init({
+  startEvent: "DOMContentLoaded",
+});
 const MapLocation = () => {
     return (
 <div className=''>
             <div className='flex  gap-20 xl:gap-10 flex-col xl:flex-row items-center justify-between'>
-                <div className='flex-1 grid md:grid-cols-2 w-full xl:w-auto flex-col xl:flex-row items-center gap-10'>
+                <div  data-aos="fade-right"  className='flex-1 grid md:grid-cols-2 w-full xl:w-auto flex-col xl:flex-row items-center gap-10'>
                     <div className='col-span-1 space-y-5'>
                         <div className='p-3 md:p-5 border space-y-4 flex flex-col justify-between rounded-2xl'>
                             <h1 className='text-3xl play font-bold'>Daily</h1>
@@ -25,7 +30,7 @@ const MapLocation = () => {
                     </div>
 
                 </div>
-                <div className='flex-1'>
+                <div data-aos="fade-left" className='flex-1'>
                     <div className='space-y-6 border-r-8 pr-4 border-[#65B110]'>
                        <div className='text-3xl lg:text-7xl font-bold work text-right'>
                             <h1>Your literary haven awaits.</h1>
