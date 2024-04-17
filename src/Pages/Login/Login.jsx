@@ -3,7 +3,7 @@ import { FiEye,FiEyeOff } from "react-icons/fi";
 import googleImg from "../../assets/icons/google.png"
 import {useForm} from "react-hook-form"
 import githubImg from "../../assets/icons/github.png"
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { Flip, ToastContainer, toast } from 'react-toastify';
 import { GoogleAuthProvider,GithubAuthProvider } from "firebase/auth";
 import { AuthProvider } from "../../firebase/FirebaseProvider";
@@ -85,6 +85,9 @@ const Login = () => {
         .catch(()=>{
         });
     }
+    const goRegister =()=>{
+        navigate("/register",{state:location.state})
+    }
     return (
         <div>
             {userInfo && <Nav></Nav>}
@@ -130,7 +133,7 @@ const Login = () => {
                         </div>
                     </div>
                     <div className="text-center my-3">
-                        <h1>Don`t have an account ? Please <Link className="text-blue-600 font-semibold" to="/register">Register</Link></h1>
+                        <h1>Don`t have an account ? Please <span className="text-blue-600 font-semibold cursor-pointer" onClick={goRegister}>Register</span></h1>
                     </div>
                     
                 </div>

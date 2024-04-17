@@ -2,7 +2,7 @@ import { useContext, useRef, useState } from 'react';
 import { FiEye,FiEyeOff } from "react-icons/fi";
 import googleImg from "../../assets/icons/google.png"
 import githubImg from "../../assets/icons/github.png"
-import {Link, useNavigate} from "react-router-dom"
+import {Link, useLocation, useNavigate} from "react-router-dom"
 import {useForm} from "react-hook-form"
 import { Flip, ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -18,6 +18,7 @@ AOS.init({
 const Register = () => {
     document.title = "Nest.X | Register";
     const navigate = useNavigate();
+    const location = useLocation();
     const {userInfo,createUser,signInPopUp} = useContext(AuthProvider);
     const {register,handleSubmit} = useForm(); 
     const [eyeToggle,setEyeToggle] = useState(true);
@@ -56,8 +57,8 @@ const Register = () => {
             .then(()=>{
                 successMessage("Registation Success");
                 setTimeout(()=>{
-                    navigate("/profile")
-                },1000)
+                    navigate(location.state ? location.state : "/profile") 
+                   },1000)
             })
             .catch(()=>{
                 errorMsg("Registation Failed");
@@ -75,7 +76,7 @@ const Register = () => {
         .then(()=>{
             successMessage("Registation Success");
             setTimeout(()=>{
-                navigate("/profile")
+                navigate(location.state ? location.state : "/profile") 
             },1000)
         })
         .catch(()=>{
@@ -89,7 +90,7 @@ const Register = () => {
         .then(()=>{
             successMessage("Registation Success");
             setTimeout(()=>{
-                navigate("/profile")
+                navigate(location.state ? location.state : "/profile") 
             },1000)
         })
         .catch(()=>{
