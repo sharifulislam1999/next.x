@@ -15,3 +15,7 @@ Welcome to Nest.X Website! Please Visit my live site [here](https://b9a9-2c78b.w
 - **React Hook Form**: Use (Login,Registation,Update) Form
 - **Swiper Slider**: Use (Home Slider)
 
+## Test Instruction (terminal)
+1.  npm i
+2.  environment variable [shariful.feb1999@gmail.com]
+3.  npm run dev
